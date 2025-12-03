@@ -4,25 +4,25 @@ A Complete End-to-End Data Analysis Project using SQL & Power BI
 
 ## 📍 Table of Contents
 
-Problem Statement
+- Problem Statement
 
-Data Discovery
+- Data Discovery
 
-Data Analysis using MySQL
+- Data Analysis using MySQL
 
-Data Cleaning and ETL
+- Data Cleaning and ETL
 
-Data Modeling
+- Data Modeling
 
-Data Analysis (DAX)
+- Data Analysis (DAX)
 
-Dashboard / Report
+- Dashboard / Report
 
-Tools and Technologies
+- Tools and Technologies
 
-References
+- References
 
-🚩 Problem Statement
+## 🚩 Problem Statement
 
 In this project, we analyze AtliQ Hardware, an India-based company that supplies computer hardware and peripherals to clients across India.
 
@@ -48,7 +48,7 @@ Improve efficiency and reduce losses
 
 This project builds a complete Sales Insights dashboard using Power BI with SQL as the backend.
 
-🔍 Data Discovery
+## 🔍 Data Discovery
 AIMS Grid – Project Planning
 1. Purpose
 
@@ -80,7 +80,7 @@ Dashboard uncovering meaningful sales insights
 
 Sales team reinvests saved time into value-added tasks
 
-🗄 Data Analysis using MySQL
+## 🗄 Data Analysis using MySQL
 Step 1: Import Data
 
 Import db_dump.sql into MySQL Workbench.
@@ -118,7 +118,7 @@ JOIN sales.date d ON t.order_date = d.date
 WHERE d.year = 2020 
 AND (t.currency = "INR\r" OR t.currency = "USD\r");
 
-Data Observations
+## Data Observations
 
 Market table contains garbage values
 
@@ -169,7 +169,7 @@ INR
 
 USD
 
-🧩 Data Modeling
+## 🧩 Data Modeling
 
 After cleaning, the tables were modeled into a Star Schema:
 
@@ -187,7 +187,7 @@ sales markets
 
 This ensures optimized DAX performance and clean relationships.
 
-📐 Data Analysis (DAX)
+## 📐 Data Analysis (DAX)
 Key Measures
 Revenue = SUM('sales transactions'[sales_amount])
 
@@ -220,7 +220,7 @@ Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
 
 Target Diff = [Profit Margin %] - 'Profit Target1'[Profit Target Value]
 
-📊 Dashboard / Report
+## 📊 Dashboard / Report
 
 The Power BI dashboard includes:
 
@@ -252,7 +252,7 @@ Sales Performance
 
 Profit Analysis
 
-🛠 Tools and Technologies
+## 🛠 Tools and Technologies
 
 MySQL
 
@@ -262,7 +262,7 @@ Power Query Editor
 
 DAX (Data Analysis Expressions)
 
-📚 References
+## 📚 References
 
 https://codebasics.io/panel/webinars/purchases
 
