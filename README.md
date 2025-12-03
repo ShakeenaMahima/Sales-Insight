@@ -180,7 +180,9 @@ USD
 
 ## 🧩 Data Modeling
 
-After cleaning, the tables were modeled into a Star Schema:
+After cleaning, The sales insights data tables as show below:
+<img width="1367" height="615" alt="image" src="https://github.com/user-attachments/assets/4d2cb9de-47c1-45bb-bc2b-baea93af5a0d" />
+
 
 Fact Table: sales transactions
 
@@ -258,6 +260,10 @@ Dashboard pages include:
 - Sales Performance
 
 - Profit Analysis
+
+Data visualization for the data analysis (DAX) was done in Microsoft Power BI Desktop:
+
+Shows visualizations from Sales insights :
 
 ## 🛠 Tools and Technologies
 
