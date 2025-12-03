@@ -126,7 +126,8 @@ JOIN sales.date d ON t.order_date = d.date
 WHERE d.year = 2020 
 AND (t.currency = "INR\r" OR t.currency = "USD\r");
 
-## Data Observations
+## Data Observations and ETL (Extract, Transform, Load):
+<img width="1134" height="672" alt="Screenshot 2025-12-03 202401" src="https://github.com/user-attachments/assets/6d156bdc-375a-45e0-98db-d54432fbd214" />
 
 Market table contains garbage values
 
