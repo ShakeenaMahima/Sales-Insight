@@ -1,8 +1,8 @@
-📊 Sales Insights Project – AtliQ Hardware
+# 📊 Sales Insights Project – AtliQ Hardware
 
 A Complete End-to-End Data Analysis Project using SQL & Power BI
 
-📍 Table of Contents
+## 📍 Table of Contents
 
 Problem Statement
 
