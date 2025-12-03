@@ -137,11 +137,11 @@ Some values in USD → must convert to INR
 
 Duplicate currency values (INR & INR\r)
 
-🧹 Data Cleaning and ETL
+- 🧹 Data Cleaning and ETL
 
 Performed in Power Query Editor (inside Power BI).
 
-✔ Cleaning Steps
+- ✔ Cleaning Steps
 
 Removed null / blank rows
 
@@ -149,7 +149,7 @@ Filtered negative and zero sales values
 
 Removed garbage market entries
 
-✔ Currency Conversion (USD → INR)
+- ✔ Currency Conversion (USD → INR)
 
 Added a conditional column:
 
@@ -158,7 +158,7 @@ each if [currency] = "USD"
 then [sales_amount] * 75 
 else [sales_amount])
 
-✔ Handling Duplicates
+- ✔ Handling Duplicates
 
 Checked duplicate currency entries in SQL:
 
@@ -166,13 +166,13 @@ SELECT COUNT(*) FROM sales.transactions WHERE currency = 'INR\r';
 SELECT COUNT(*) FROM sales.transactions WHERE currency = 'INR';
 
 
-Kept only:
+- Kept only:
 
 INR\r
 
 USD\r
 
-Removed:
+- Removed:
 
 INR
 
