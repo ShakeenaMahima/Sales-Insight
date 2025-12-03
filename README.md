@@ -38,13 +38,13 @@ Decisions are made without factual evidence.
 
 To solve this, the Sales Director wants a daily-use data visualization dashboard to:
 
-Track sales performance
+- Track sales performance
 
-Identify problems early
+- Identify problems early
 
-Make data-driven decisions
+- Make data-driven decisions
 
-Improve efficiency and reduce losses
+- Improve efficiency and reduce losses
 
 This project builds a complete Sales Insights dashboard using Power BI with SQL as the backend.
 
