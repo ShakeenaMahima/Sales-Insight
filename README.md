@@ -9,7 +9,8 @@ Data Analysis (DAX)
 Build Dashboard Or a Report
 Tools, Software and Libraries
 References
-Problem Statement :
+
+#Problem Statement :
 In this project performed India based AtliQ hardware company sales insights - A Data Analysis project.
 
 AtliQ Hardware is a company which supplies computer hardware and peripherals to many of clients such as surge stores, Nomad stores etc. across India. AtliQ Hardware head office is situated in Delhi, India and they have many regional office through out the India.
@@ -30,12 +31,11 @@ AIMS Grid -
 1. Purpose :- To unlock sales insights that are not visible before for the sales them for decision support and automate them to reduced manual time spent in data gathering.
 
 2. Stakeholders :-
-
-Sales Director
-Marketing Team
-Customer Service Team
-Data and Analytics Team
-IT
+                  Sales Director
+                  Marketing Team
+                  Customer Service Team
+                  Data and Analytics Team
+                  IT
 3. End result :- An automated dashboard providing quick and latest sights in order to support Data driven decision making.
 
 4. Success Criteria :-
