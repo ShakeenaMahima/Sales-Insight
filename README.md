@@ -49,6 +49,14 @@ Improve efficiency and reduce losses
 This project builds a complete Sales Insights dashboard using Power BI with SQL as the backend.
 
 ## 🔍 Data Discovery
+Project Planning using AIMS Grid -
+It is a project management tool which consists of four components-
+
+- Purpose - (What to do exactly)
+- Stackholder - (Who will be involved)
+- End result - (What do you want to achieve)
+- Success Criteria - (Cost optimization and time save)
+
 AIMS Grid – Project Planning
 1. Purpose
 
@@ -56,15 +64,15 @@ To unlock previously unseen sales insights for decision support and automate rep
 
 2. Stakeholders
 
-Sales Director
+- Sales Director
 
-Marketing Team
+- Marketing Team
 
-Customer Service Team
+- Customer Service Team
 
-Data & Analytics Team
+- Data & Analytics Team
 
-IT Team
+- IT Team
 
 3. End Result
 
@@ -72,13 +80,13 @@ An automated Power BI dashboard providing quick and latest sales insights for da
 
 4. Success Criteria
 
-Dashboard uncovering meaningful sales insights
+- Dashboard uncovering meaningful sales insights
 
-10% cost savings through better decisions
+- 10% cost savings through better decisions
 
-20% time saved by eliminating manual data gathering
+- 20% time saved by eliminating manual data gathering
 
-Sales team reinvests saved time into value-added tasks
+- Sales team reinvests saved time into value-added tasks
 
 ## 🗄 Data Analysis using MySQL
 Step 1: Import Data
