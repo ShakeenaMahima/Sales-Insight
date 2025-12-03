@@ -185,48 +185,46 @@ Fact Table: sales transactions
 
 Dimension Tables:
 
-sales customers
+- sales customers
 
-sales date
+- sales date
 
-sales products
+- sales products
 
-sales markets
+- sales markets
 
 This ensures optimized DAX performance and clean relationships.
 
 ## 📐 Data Analysis (DAX)
-Key Measures
-Revenue = SUM('sales transactions'[sales_amount])
+Key Measures: 
+- Revenue = SUM('sales transactions'[sales_amount])
 
-Sales Quantity = SUM('sales transactions'[sales_qty])
+- Sales Quantity = SUM('sales transactions'[sales_qty])
 
-Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
+- Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
 
-Profit Margin % = 
-DIVIDE([Total Profit Margin], [Revenue], 0)
+- Profit Margin % = DIVIDE([Total Profit Margin], [Revenue], 0)
 
-Revenue Contribution % =
+- Revenue Contribution % =
 DIVIDE(
     [Revenue],
     CALCULATE([Revenue], ALL('sales products'), ALL('sales customers'), ALL('sales markets'))
 )
 
-Profit Margin Contribution % =
+- Profit Margin Contribution % =
 DIVIDE(
     [Total Profit Margin],
     CALCULATE([Total Profit Margin], ALL('sales products'), ALL('sales customers'), ALL('sales markets'))
 )
 
-Revenue LY =
-CALCULATE([Revenue], SAMEPERIODLASTYEAR('sales date'[date]))
+- Revenue LY =CALCULATE([Revenue], SAMEPERIODLASTYEAR('sales date'[date]))
 
-Target Measures
-Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
+Target Measures:
+- Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
 
-Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
+- Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
 
-Target Diff = [Profit Margin %] - 'Profit Target1'[Profit Target Value]
+- Target Diff = [Profit Margin %] - 'Profit Target1'[Profit Target Value]
 
 ## 📊 Dashboard / Report
 
@@ -234,47 +232,46 @@ The Power BI dashboard includes:
 
 1. Key Insights
 
-Total Revenue
+- Total Revenue
 
-Total Quantity
+- Total Quantity
 
-Revenue by Customer
+- Revenue by Customer
 
-Revenue by Market
+- Revenue by Market
 
-Yearly Trends
+- Yearly Trends
 
 2. Profit Analysis
 
-Profit Margin %
+- Profit Margin %
 
-Profit Contribution by Product
+- Profit Contribution by Product
 
-Target vs Actual Profit
+- Target vs Actual Profit
 
 Dashboard pages include:
 
-Key Insights
+- Key Insights
 
-Sales Performance
+- Sales Performance
 
-Profit Analysis
+- Profit Analysis
 
 ## 🛠 Tools and Technologies
 
-MySQL
+- MySQL
 
-Power BI Desktop
+- Power BI Desktop
 
-Power Query Editor
+- Power Query Editor
 
-DAX (Data Analysis Expressions)
+- DAX (Data Analysis Expressions)
 
 ## 📚 References
 
-https://codebasics.io/panel/webinars/purchases
+- https://codebasics.io/panel/webinars/purchases
 
-https://www.sqlbi.com/learn/introducing-dax-video-course/0/
+- https://www.sqlbi.com/learn/introducing-dax-video-course/0/
 
-https://dev.mysql.com/doc/
-https://dev.mysql.com/doc/
+- https://dev.mysql.com/doc/
