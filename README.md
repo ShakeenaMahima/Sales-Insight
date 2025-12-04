@@ -266,12 +266,15 @@ Data visualization for the data analysis (DAX) was done in Microsoft Power BI De
 Shows visualizations from Sales insights :
 
 Key Insights Dashboard:
+
 <img width="1330" height="746" alt="Screenshot 2025-12-04 103428" src="https://github.com/user-attachments/assets/bd3bf962-ef60-4f92-ab7d-6a5981c8e96e" />
 
 Profit Analysis Dashbaord:
+
 <img width="1340" height="746" alt="Screenshot 2025-12-04 103501" src="https://github.com/user-attachments/assets/67700205-e57e-45eb-829d-2959b969df4a" />
 
 Performance Analysis Dashboard:
+
 <img width="1330" height="743" alt="Screenshot 2025-12-04 103518" src="https://github.com/user-attachments/assets/deb18800-8c07-4eb2-bd4d-df978bc25a99" />
 
 
